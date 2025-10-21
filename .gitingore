@@ -1,0 +1,53 @@
+# IntelliJ IDEA specific files and directories
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+production/
+target/
+
+# Gradle
+.gradle/
+build/
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor backup files
+*~
+*.swp
+*.swo
+
+# User-specific configurations
+/.idea/libraries/
+/.idea/artifacts/
+/.idea/runConfigurations/
+/.idea/dictionaries/
+/.idea/inspectionProfiles/
+/.idea/shelf/
+/.idea/libraries/
+/.idea/encodings.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/jsLibraryMappings.xml
+
+# Exclude only user-specific files, not the entire .idea directory
+/.idea/workspace.xml
+/.idea/tasks.xml
+/.idea/usage.statistics.xml
+/.idea/uiDesigner.xml
